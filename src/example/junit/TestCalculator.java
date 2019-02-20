@@ -11,13 +11,13 @@ public class TestCalculator {
 	private math.Calculator calc;
   
 	 @Before
-	 #public void setUp() throws Exception {
-	#	 calc = new math.Calculator();
+	 public void setUp() throws Exception {
+		 calc = new math.Calculator();
 	 }
  
-	# @After
-	 #public void tearDown() throws Exception {
-	#	 calc = null;
+          @After
+	 public void tearDown() throws Exception {
+		 calc = null;
 	 }
 	 
 	 @Test
